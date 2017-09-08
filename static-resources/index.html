@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Geeky phone book</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.js"></script>
+    
+    <script src="/js/TableView.jsx" type="text/babel"></script>
+    <script src="/js/EditForm.jsx" type="text/babel"></script>
+    <script src="/js/NotFound.jsx" type="text/babel"></script>
+    <script src="/js/App.jsx" type="text/babel"></script>
+</head>
+
+<body>
+	
+	<div id="content" class="container">
+	</div>
+	
+	<script type="text/babel">
+	
+		ReactDOM.render(
+			<App />,
+			document.getElementById("content")
+		);
+
+	</script>
+	
+</body>
+
+</html>

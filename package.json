@@ -1,0 +1,12 @@
+{
+  "name": "node-phonebook",
+  "version": "1.0.0",
+  "dependencies": {
+	  "express": "4.15.4",
+	  "pg": "7.3.0",
+	  "body-parser": "1.17.2"
+  },
+  "scripts": {
+	  "start": "node main.js"
+  }
+}
